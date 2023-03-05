@@ -51,23 +51,6 @@
     </div>
   {{ end }}
   </div>
-
-  {{/*  {{ $currentYear := now.Year}}
-  {{ range $year := slice "preprints" | append (seq $currentYear -1 2011 | append "theses" ) }}
-  {{ $year := string $year }}
-  {{ $pubFile := printf "%s" ".html" | printf "%s%s"  $year | printf "%s%s" "static/partials/publications/" | printf "%s"}}
-  {{ if fileExists $pubFile }}
-  <h2>{{ $year | title }}</h2>
-  <ul>
-    {{ $paperHtmls := split (readFile $pubFile) "\n" }}
-    {{ range $paperHtml, $paperHtmls }}
-    {{ if gt (len $paperHtml) 0 }}
-    <li>{{ safeHTML $paperHtml }}</li>
-    {{ end }}
-    {{ end }}
-  </ul>
-  {{ end }}
-  {{ end }}  */}}
 </div>
 
 {{ end }}

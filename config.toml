@@ -1,4 +1,4 @@
-baseURL = 'https://yoshitomo-matsubara.github.io'
+baseURL = 'https://yoshitomo-matsubara.net'
 languageCode = 'en-us'
 title = "Yoshitomo Matsubara's Personal Webpage"
 theme = "personal_theme"
@@ -9,6 +9,12 @@ enableRobotsTXT = true
 [params]
   author = "Yoshitomo Matsubara"
   description = "Yoshitomo Matsubara's personal webpage"
+
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'static/sitemap.xml'
+  priority = 0.8
 
 
 [permalinks]
@@ -39,6 +45,7 @@ enableRobotsTXT = true
 
 
 sectionPagesMenu = "main"
+
 
 [menu]
   [[menu.main]]
