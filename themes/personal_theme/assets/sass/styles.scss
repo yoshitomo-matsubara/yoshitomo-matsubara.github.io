@@ -1,0 +1,43 @@
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--bs-light);
+    border-radius: .3rem;  
+}
+
+// My personal styles
+img#avatar {
+    vertical-align: middle;
+	max-width: 215px;
+	padding: 3px;
+    border-radius: 50%;
+    background: gray;
+}
+
+.icon {
+	max-height: 40px;
+}
+
+a.menu-item {
+    font-size: x-large;
+}
+
+a.no-decoration-link {
+	text-decoration: none;
+}
+
+div#news-table {
+    overflow: auto;
+	height: 250px;
+    width: 100%;
+}
+
+
+hr.news-separator {
+	margin: 10px 0px;
+	border-top-color: #444444;
+}
+
+li.menu-item {
+    flex-grow: 1;
+}

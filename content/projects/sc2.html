@@ -1,0 +1,35 @@
+---
+title: "Supervised Compression for Split Computing"
+draft: false
+menu:
+  main:
+    identifier: "sc2"
+    weight: 240 
+    parent: "projects"
+tags:
+  - split computing
+  - supervised compression
+---
+
+<h2> Summary </h2>
+<p>
+  <b><i>Split computing</i></b> has been attracting attentions from the research community as an intermediate option 
+  between local (mobile) computing and full computation offloading.
+  This approach is effective especially for resource-constrained edge computing systems 
+  e.g., computationally weak mobile devices, limited wireless communication capacity.
+  We proposed introducing <i>bottleneck</i> (splitting point) to deep learning models at their early stages so that 
+  we can minimize local computing and data communication costs while maximizing model accuracy, which we formulated later
+  as <b><i>supervised compression for split computing (SC2)</i></b>.
+</p>
+<p>
+  We define <b><i>supervised compression</i></b> as <i>learning compressed representations for supervised downstream tasks</i>.
+  It is very challenging to introduce bottlenecks (splitting points) to deep learning models at their early layers while preserving model accuracy.
+  SC2 is a key to achieve efficient and accuracy machine learning applications for resource-constrained edge computing systems.
+</p>
+
+<h2>ML OSS</h2>
+<p>
+  To facilitate research on supervised compression for split computing (SC2), I published an installable Python package named 
+  <a href="https://pypi.org/project/sc2bench/" target="_blank">sc2bench</a> (i.e., "pip3 install sc2bench") and <a href="https://github.com/yoshitomo-matsubara/sc2benchmark" target="_blank">a code repository</a> 
+  to reproduce the experimental results reported in our SC2 paper. 
+</p>

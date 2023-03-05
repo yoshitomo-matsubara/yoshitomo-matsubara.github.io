@@ -1,0 +1,398 @@
+- title: "Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery"
+  venue: arXiv
+  authors:
+    - myself
+    - naoya-chiba
+    - ryo-igarashi
+    - tatsunori-taniai
+    - yoshitaka-ushiku
+  badges:
+    - name: Preprint
+      url: https://arxiv.org/abs/2203.08875
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/sc2-benchmark
+  tags:
+    - symbolic regression
+  year: 2022
+  note: 
+
+- title: "SC2: Supervised Compression for Split Computing"
+  venue: arXiv
+  authors:
+    - myself
+    - ruihan-yang
+    - marco-levorato
+    - stephan-mandt
+  badges:
+    - name: Preprint
+      url: https://arxiv.org/abs/2203.08875
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/sc2-benchmark
+  tags:
+    - split computing
+    - supervised compression
+    - open source software
+  year: 2022
+  note: 
+
+- title: "Ensemble Transformer for Eﬀicient and Accurate Ranking Tasks: an Application to Question Answering Systems"
+  venue: EMNLP 2022 (Findings)
+  authors:
+    - myself
+    - luca-soldaini
+    - eric-lind
+    - alessandro-moschitti
+  badges:
+    - name: Paper
+      url: https://aclanthology.org/2022.findings-emnlp.537/
+    - name: Amazon Science
+      url: https://www.amazon.science/publications/ensemble-transformer-for-efficient-and-accurate-ranking-tasks-an-application-to-question-answering-systems
+    - name: Preprint
+      url: https://arxiv.org/abs/2201.05767
+    - name: Code
+      url: https://github.com/amazon-research/wqa-cerberus
+  tags:
+    - information retrieval
+    - question answering
+    - knowledge distillation
+  year: 2022
+  note: This work was done while I was an applied science intern at Amazon Alexa AI.
+
+- title: "Split Computing and Early Exiting for Deep Learning Applications: Survey and Research Challenges"
+  venue: ACM Computing Surveys (CSUR)
+  authors:
+    - myself
+    - marco-levorato
+    - francesco-restuccia
+  badges:
+    - name: Paper
+      url: https://dl.acm.org/doi/full/10.1145/3527155
+    - name: Preprint
+      url: https://arxiv.org/abs/2103.04505
+  tags:
+    - split computing
+  year: 2022
+  note:
+
+- title: "SRSD: Rethinking Datasets of Symbolic Regression for Scientific Discovery"
+  venue: NeurIPS 2022 AI for Science Workshop
+  authors:
+    - myself
+    - naoya-chiba
+    - ryo-igarashi
+    - yoshitaka-ushiku
+  badges:
+    - name: OpenReview
+      url: https://openreview.net/forum?id=oKwyEqClqkb
+    - name: Code
+      url: https://github.com/omron-sinicx/srsd-benchmark
+    - name: Dataset1
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_easy
+    - name: Dataset2
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_medium
+    - name: Dataset3
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard
+  tags:
+    - symbolic regression
+  year: 2022
+  note:
+
+- title: "BottleFit: Learning Compressed Representations in Deep Neural Networks for Effective and Efficient Split Computing"
+  venue: IEEE WoWMoM 2022
+  authors:
+    - myself
+    - davide-callegaro
+    - sameer-singh
+    - marco-levorato
+    - francesco-restuccia
+  badges:
+    - name: Paper
+      url: https://ieeexplore.ieee.org/document/9842809
+    - name: Preprint
+      url: https://arxiv.org/abs/2201.02693
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/bottlefit-split_computing
+  tags:
+    - split computing
+    - knowledge distillation
+  year: 2022
+  note:
+
+- title: Supervised Compression for Resource-Constrained Edge Computing Systems
+  venue: WACV 2022
+  authors:
+    - myself
+    - ruihan-yang
+    - marco-levorato
+    - mandt-stephan
+  badges:
+    - name: Paper
+      url: https://openaccess.thecvf.com/content/WACV2022/html/Matsubara_Supervised_Compression_for_Resource-Constrained_Edge_Computing_Systems_WACV_2022_paper.html
+    - name: Preprint
+      url: https://arxiv.org/abs/2108.11898
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/supervised-compression
+  tags:
+    - supervised compression
+    - split computing
+    - knowledge distillation
+  year: 2022
+  note:
+
+- title: "torchdistill: A Modular, Configuration-Driven Framework for Knowledge Distillation"
+  venue: ICPR 2020 Workshop on Reproducible Research in Pattern Recognition (RRPR)
+  authors:
+    - myself
+  badges:
+    - name: Paper
+      url: https://link.springer.com/chapter/10.1007/978-3-030-76423-4_3
+    - name: Preprint
+      url: https://arxiv.org/abs/2011.12913
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/torchdistill
+  tags:
+    - knowledge distillation
+    - open source software
+  year: 2021
+  note:
+
+
+- title: Neural Compression and Filtering for Edge-assisted Real-time Object Detection in Challenged Networks
+  venue: ICPR 2020
+  authors:
+    - myself
+    - marco-levorato
+  badges:
+    - name: Paper
+      url: https://ieeexplore.ieee.org/document/9412388
+    - name: Supp
+      url: https://ieeexplore.ieee.org/document/9412388/media#media
+    - name: Preprint
+      url: https://arxiv.org/abs/2007.15818
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/hnd-ghnd-object-detectors
+  tags:
+    - split computing
+    - knowledge distillation
+  year: 2021
+  note:
+
+- title: "COVIDLies: Detecting COVID-19 Misinformation on Social Media"
+  venue: EMNLP 2020 Workshop on NLP for COVID-19 (Part 2)
+  award:
+    title: Best Paper Award
+    url: https://twitter.com/karinv/status/1329900095899271169
+  authors:
+    - ["tamanna-hossain", "*"]
+    - ["robert-logan", "*"]
+    - ["arjuna-ugarte", "*"]
+    - ["myself", "*"]
+    - sameer-singh
+    - sean-young
+  badges:
+    - name: Paper
+      url: https://aclanthology.org/2020.nlpcovid19-2.11/
+    - name: OpenReview
+      url: https://openreview.net/forum?id=FCna-s-ZaIE
+    - name: Demo
+      url: https://ucinlp.github.io/covid19/
+  tags:
+    - covid19 nlp
+    - information retrieval
+  year: 2020
+  note: "* First four authors contributed equally."
+
+
+- title: Optimal Task Allocation for Time-Varying Edge Computing Systems with Split DNNs
+  venue: IEEE GLOBECOM 2020
+  authors:
+    - davide-callegaro
+    - myself
+    - marco-levorato
+  badges:
+    - name: Paper
+      url: https://ieeexplore.ieee.org/abstract/document/9322344
+  tags:
+    - split computing
+  year: 2020
+  note:
+
+- title: "Head Network Distillation: Splitting Distilled Deep Neural Networks for Resource-constrained Edge Computing Systems"
+  venue: IEEE Access
+  authors:
+    - myself
+    - davide-callegaro
+    - sabur-baidya
+    - marco-levorato
+    - sameer-singh
+  badges:
+    - name: Paper
+      url: https://ieeexplore.ieee.org/document/9265295
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/head-network-distillation
+  tags:
+    - split computing
+    - knowledge distillation
+  year: 2020
+  note:
+
+- title: "ZOTBOT: Using Reading Comprehension and Commonsense Reasoning in Conversational Agents"
+  venue: Alexa Prize 2019
+  authors:
+    - william-schallock
+    - ["daniel-agress", "*"]
+    - ["yao-du", "*"]
+    - ["dheeru-dua", "*"]
+    - ["lyuyang-hu", "*"]
+    - ["myself", "*"]
+    - sameer-singh
+  badges:
+    - name: Paper
+      url: https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexaprize/assets/challenge3/proceedings/UC-Irvine-ZotBot.pdf
+  tags:
+    - question answering
+  year: 2020
+  note: "* Apart from the first and last authors, the authors are listed in alphabetical order."
+
+- title: "Split Computing for Complex Object Detectors: Challenges and Preliminary Results"
+  venue: MobiCom 2020 Workshop on Embedded and Mobile Deep Learning (EMDL)
+  authors:
+    - myself
+    - marco-levorato
+  badges:
+    - name: Paper
+      url: https://dl.acm.org/doi/abs/10.1145/3410338.3412338
+    - name: Preprint
+      url: https://arxiv.org/abs/2007.13312
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/hnd-ghnd-object-detectors
+  tags:
+    - split computing
+    - knowledge distillation
+  year: 2020
+  note:
+
+- title: "Citations Beyond Self Citations: Identifying Authors, Affiliations, and Nationalities in Scientific Papers"
+  venue: JCDL 2020 Workshop on Mining Scientific Publications (WOSP)
+  authors:
+    - myself
+    - sameer-singh
+  badges:
+    - name: Paper
+      url: https://www.aclweb.org/anthology/2020.wosp-1.2/
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/guess-blind-entities
+  tags:
+    - peer review systems
+  year: 2020
+  note:
+
+- title: Reranking for Efficient Transformer-based Answer Selection
+  venue: SIGIR 2020
+  authors:
+    - myself
+    - thuy-vu
+    - alessandro-moschitti
+  badges:
+    - name: Paper
+      url: https://dl.acm.org/doi/abs/10.1145/3397271.3401266
+    - name: Amazon Science
+      url: https://www.amazon.science/publications/reranking-for-efficient-transformer-based-answer-selection
+    - name: Video
+      url: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3397271.3401266&file=3397271.3401266.mp4&download=true
+  tags:
+    - information retrieval
+    - question answering
+  year: 2020
+  note: This work was done while I was an applied science intern at Amazon Alexa.
+
+- title: Distilled Split Deep Neural Networks for Edge-Assisted Real-Time Systems
+  venue: MobiCom 2019 Workshop on Hot Topics in Video Analytics and Intelligent Edges (HotEdgeVideo)
+  authors:
+    - myself
+    - sabur-baidya
+    - davide-callegaro
+    - marco-levorato
+    - sameer-singh
+  badges:
+    - name: Paper
+      url: https://dl.acm.org/citation.cfm?id=3356022
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/head-network-distillation
+  tags:
+    - split computing
+    - knowledge distillation
+  year: 2019
+  note: 
+
+- title: Screen Unlocking by Spontaneous Flick Reactions with One-class Classification Approaches
+  venue: IEEE ICMLA 2016
+  authors:
+    - myself
+    - haruhiko-nishimura
+    - toshiharu-samura
+    - hiroyuki-yoshimoto
+    - ryohei-tanimoto
+  badges:
+    - name: Paper
+      url: http://ieeexplore.ieee.org/document/7838238/
+    - name: Patent
+      url: https://www.j-platpat.inpit.go.jp/p0200
+  tags:
+    - biometrics
+  year: 2016
+  note: "\"Personal Authentication Device, Personal Authentication Method, and Personal Authentication Program,\" JP Patent No. 6707271"
+
+- title: Keyboard Dependency of Personal Identification Performance by Keystroke Dynamics in Free Text Typing
+  venue: Journal of Information Security
+  authors:
+    - myself
+    - toshiharu-samura
+    - haruhiko-nishimura
+  badges:
+    - name: Paper
+      url: http://www.scirp.org/Journal/PaperInformation.aspx?PaperID=57901
+  tags:
+    - biometrics
+  year: 2015
+  note: 
+
+- title: Profile Generation Methods for Reinforcing Robustness of Keystroke Authentication in Free Text Typing
+  venue: Journal of Information Security
+  authors:
+    - myself
+    - toshiharu-samura
+    - haruhiko-nishimura
+  badges:
+    - name: Paper
+      url: http://www.scirp.org/Journal/PaperInformation.aspx?PaperID=55742
+  tags:
+    - biometrics
+  year: 2015
+  note: 
+
+- title: Performance Assessment in Keystroke Dynamics by Combined Profile Documents for Free Text Typing
+  venue: SICE 2013
+  authors:
+    - toshiharu-samura
+    - myself
+    - haruhiko-nishimura
+  badges:
+    - name: Paper
+      url: http://ieeexplore.ieee.org/document/6736168/
+  tags:
+    - biometrics
+  year: 2013
+  note: 
+
+- title: Robustness of Keystroke Dynamics against Changing in Input and Recognition Conditions for Japanese Atypical Text
+  venue: ISTS 2012
+  authors:
+    - myself
+    - toshiharu-samura
+    - haruhiko-nishimura
+  badges:
+  tags:
+    - biometrics
+  year: 2012
+  note: 

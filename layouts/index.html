@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <h2 class="text-center my-3 alert alert-dark" role="alert"><i class="bi bi-person-vcard"></i> About Me</h2>
+      {{ readFile "static/partials/about_me.html" | safeHTML }}
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <h2 class="text-center my-3 alert alert-dark" role="alert"><i class="bi bi-newspaper"></i> Latest News</h2>
+      <div id="news-table">
+        {{ readFile "static/partials/news.html" | safeHTML }}
+      </div>
+    </div>
+  </div>
+  <br>
+  <h2 class="text-center my-3 alert alert-dark" role="alert"><i class="bi bi-terminal"></i> My Recent Projects</h2>
+
+  {{ partial "projects" . }}
+
+</div>
+
+{{ end }}

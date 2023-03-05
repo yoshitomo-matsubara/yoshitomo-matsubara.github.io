@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<div class="container pb-5">
+  {{ .Content }}
+
+  {{ range $.Site.Data.services }}
+    <h2>{{ .category }}</h2>
+    <ul>
+    {{ range $item := .list }}
+      <li>
+      {{ $itemHtml :=  cond (eq $item.url nil) $item.title (printf "%s</a>" $item.title | printf "<a class=\"no-decoration-link\" target=\"_brank\" href=\"%s\">%s" $item.url ) }}
+      {{ if $item.note }}
+        {{ $itemHtml = printf "%s" $item.note | printf "%s %s" $itemHtml }}
+      {{ end }}
+      {{ safeHTML $itemHtml }}
+        <ul>
+      {{ range $subItem := $item.list }}
+          <li>
+            {{ $subItemHtml :=  cond (eq $subItem.url nil) $subItem.title (printf "%s</a>" $subItem.title | printf "<a class=\"no-decoration-link\" target=\"_brank\" href=\"%s\">%s" $subItem.url ) }}
+            {{ if $subItem.note }}
+              {{ $subItemHtml = printf "%s" $subItem.note | printf "%s %s" $subItemHtml }}
+            {{ end }}
+            {{ safeHTML $subItemHtml }}
+          </li>
+      {{ end }}
+        </ul>
+      </li>
+    {{ end }}
+    </ul>
+  {{ end }}
+</div>
+
+{{ end }}

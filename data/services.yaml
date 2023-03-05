@@ -1,0 +1,58 @@
+- category: Technical Staff
+  list:
+    - title: ACL Rolling Review
+      url: https://aclrollingreview.org/people
+      note: (5/2021 - present)
+- category: Organizer
+  list:
+- category: Reviewer
+  list:
+    - title: ICLR
+      list:
+        - title: Highlighted Reviewer of ICLR 2022
+          url: https://iclr.cc/Conferences/2022/Reviewers  
+          note: (8.75%, 489 of  5,587 reviewers)
+    - title: ICML
+    - title: NeurIPS
+      url:
+      note: (Main and Datasets & Benchmarks tracks)
+      list:
+        - title: Outstanding Reviewer of NeurIPS 2022 (Datasets & Benchmarks)
+          url: https://neurips.cc/Conferences/2022/DatasetBenchmarkProgramCommittee
+          note: (12.1%, 129 of 1,064 reviewers)
+        - title: Top Reviewer of NeurIPS 2022 (Main)
+          url: https://neurips.cc/Conferences/2022/ProgramCommittee
+          note: (10.6%, 1,000 of 9,394 reviewers)
+    - title: AAAI
+    - title: WACV
+    - title: JMLR
+    - title: IEEE Transactions on Mobile Computing
+    - title: IEEE Journal on Selected Areas in Information Theory
+    - title: IEEE Internet of Things Journal
+    - title: Journal of Data Semantics
+    - title: IEEE ICC
+    - title: IEEE GLOBECOM
+- category: Program Committee
+  list:
+    - title: EACL 2023 (System Demonstration Track)
+    - title: ICML 2022 Workshop on Dynamic Neural Networks
+      url: https://dynn-icml2022.github.io/
+    - title: COLING 2022 Workshop on Scholarly Document Processing
+      url: https://sdproc.org/2022/programcommittee.html
+    - title: AACL-IJCNLP 2022 Workshop on Information Extraction from Scientific Publications
+      url: https://ui.adsabs.harvard.edu/WIESP/2022/
+    - title: NAACL 2021 Workshop on Scholarly Document Processing
+      url: https://sdproc.org/2021/programcommittee.html
+- category: Beta Test Volunteer
+  list:
+    - title: TMLR
+- category: Virtual Conference Volunteer
+  list:
+    - title: NeurIPS 2020
+    - title: ICML 2020
+    - title: ICLR 2020
+      url: https://iclr.cc/Conferences/2020/Volunteers
+- category: Receptionist
+  list:
+    - title: SIGGRAPH Asia 2015
+      note: (local committee)

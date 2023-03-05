@@ -1,0 +1,34 @@
+---
+title: "Knowledge Distillation"
+draft: false
+menu:
+  main:
+    identifier: "kd"
+    weight: 210 
+    parent: "projects"
+tags:
+  - knowledge distillation
+---
+
+<h2> Summary </h2>
+<p>
+  Knowledge distillation (KD) is a game changer for me and opens up a lot of research directions.
+  Though many existing studies leverage KD for model compression purposes, my research interest in KD is not only in model compression,
+  but also in supervised compression, and human-annotation-free model training, and more!
+</p>
+
+<h2>ML OSS</h2>
+<p>
+  Knowledge distillation approaches have been getting complex e.g., use of intermediate feature representations and auximiliary modules
+  (trainable modules that are used in training session only), which makes the implementations more complex.
+  To lower barrier to research on KD, I developed an ML OSS, <a href="https://github.com/yoshitomo-matsubara/torchdistill" target="_blank">torchdistill</a>, 
+  a modular, configuration-driven framework for knowledge distillation. <a href="https://pypi.org/project/torchdistill/" target="_blank">torchdistill</a> is 
+  an installable Python package, and you can install it by "pip3 install torchdistill".
+</p>
+
+<h2>Supervised Compression</h2>
+<p>
+  We empirically found that leveraging teacher models is key to further improve the tradeoffs between model accuracy and data size,
+  learning compressed representations for supervised tasks. More details are abailable at the project page of 
+  <a href="#">Supervised Compression for Split Computing</a>.
+</p>

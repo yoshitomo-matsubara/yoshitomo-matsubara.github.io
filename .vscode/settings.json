@@ -1,0 +1,12 @@
+{
+    "html.format.wrapAttributesIndentSize": 2,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.enable": true,
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.tabCompletion": "on",
+        "editor.stickyTabStops": false
+    },
+    "editor.indentSize": "tabSize"
+}

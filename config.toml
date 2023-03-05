@@ -1,0 +1,56 @@
+baseURL = 'https://yoshitomo-matsubara.github.io'
+languageCode = 'en-us'
+title = "Yoshitomo Matsubara's Personal Webpage"
+theme = "personal_theme"
+relativeURLS = true
+enableRobotsTXT = true
+
+
+[params]
+  author = "Yoshitomo Matsubara"
+  description = "Yoshitomo Matsubara's personal webpage"
+
+
+[permalinks]
+  blog = '/blog/:year/:month/:day/:title/'
+
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"
+
+  [[module.mounts]]
+    source = "node_modules/bootstrap-icons/font/bootstrap-icons.scss"
+    target = "assets/scss/bootstrap-icons.scss"
+
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+  [[module.mounts]]
+    source = "node_modules/bootstrap-icons/font/fonts"
+    target = "static/css/fonts"
+
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+
+sectionPagesMenu = "main"
+
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    title = "Projects"
+    url = "/projects/"
+    weight = 200
+    name = "bi bi-lightbulb"
+
+#  [[menu.main]]
+#    identifier = "blog"
+#    title = "Blog"
+#    url = "/blog/"
+#    weight = 400
+#    name = "bi bi-chat-square-dots"

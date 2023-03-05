@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<div class="container pb-5">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <h2> Related Publications </h2>
+  {{ $authorMap := $.Site.Data.authors }}
+  {{ $tagList := .Params.tags }}
+  {{ range $.Site.Data.publications }}
+    {{ if intersect .tags $tagList  }}
+      <div class="card border-secondary col-xs-12 col-sm-12 col-md-12 col-lg-12 m-2">
+        <div class="card-body">
+          <p class="card-title fw-bolder fs-5">{{ .title }}</p>
+          <p class="card-subtitle fw-bold fs-6 mb-2">{{ .venue }}</p>
+          {{ if .award }}
+            {{ $awardUrl := "#" }}
+            {{ if .award.url }}
+              {{ $awardUrl = .award.url}}
+            {{ end }}
+            <a href="{{ $awardUrl }}" target="_blank" class="btn btn-warning mb-2">{{ .award.title }}</a>
+          {{ end }}
+
+          {{ $numAuthors := len .authors}}
+          <div class="text-primary mb-2">
+          {{ range $index, $authorId := .authors }}
+            {{ $symbol := "" }}
+            {{ if reflect.IsSlice $authorId }}
+              {{ $symbol = index $authorId 1 }}
+              {{ $authorId = index $authorId 0}}
+            {{ end }}
+            
+            {{ $authorInfo := index $authorMap $authorId }}
+            {{ if and (gt $numAuthors 1) (ne $index (sub $numAuthors 1)) }}
+              {{ $symbol = printf "%s," $symbol }}
+            {{ end }}
+
+            {{ $authorName := cond (eq $authorInfo.name_deco nil) $authorInfo.name $authorInfo.name_deco }}
+            {{ if $authorInfo.url }}
+              {{ $authorUrl := $authorInfo.url}}
+              <a class="no-decoration-link" target="_brank" href="{{ $authorInfo.url }}">{{ $authorName }}</a>{{ $symbol }}
+            {{ else }}
+              {{ safeHTML $authorName }}{{ $symbol }}
+            {{ end }}
+          {{ end }}
+          </div>
+          {{ if .note}}
+            <p class="card-text"><small class="text-muted">{{ .note }}</small></p>
+          {{ end }}
+          {{ range .badges }}
+            <a href="{{ .url }}" target="_blank" class="btn btn-primary mb-2">{{ .name }}</a>
+          {{ end }}
+
+        </div>
+      </div>
+    {{ end}}
+  {{ end }}
+  </div>
+</div>
+
+{{ end }}
