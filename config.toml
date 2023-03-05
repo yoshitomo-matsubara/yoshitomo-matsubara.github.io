@@ -13,7 +13,7 @@ enableRobotsTXT = true
 
 [sitemap]
   changefreq = 'monthly'
-  filename = 'static/sitemap.xml'
+  filename = 'sitemap.xml'
   priority = 0.8
 
 
