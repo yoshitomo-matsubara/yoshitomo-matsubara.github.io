@@ -4,6 +4,7 @@ title = "Yoshitomo Matsubara's Personal Webpage"
 theme = "personal_theme"
 relativeURLS = true
 enableRobotsTXT = true
+googleAnalytics = "G-5ZP208NTBV"
 
 
 [params]
