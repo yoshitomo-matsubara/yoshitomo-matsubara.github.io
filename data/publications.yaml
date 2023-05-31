@@ -45,6 +45,8 @@
     - ankit-chadha
     - alessandro-moschitti
   badges:
+    - name: Amazon Science
+      url: https://www.amazon.science/publications/cross-lingual-knowledge-distillation-for-answer-sentence-selection-in-low-resource-languages
     - name: Preprint
       url: https://arxiv.org/abs/2305.16302
     - name: Xtr-WikiQA
