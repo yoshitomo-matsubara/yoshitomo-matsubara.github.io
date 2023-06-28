@@ -16,14 +16,16 @@
   year: 2022
   note: 
 
-- title: "SC2: Supervised Compression for Split Computing"
-  venue: arXiv
+- title: "SC2 Benchmark: Supervised Compression for Split Computing"
+  venue: Transactions on Machine Learning Research (TMLR)
   authors:
     - myself
     - ruihan-yang
     - marco-levorato
     - stephan-mandt
   badges:
+    - name: OpenReview
+      url: https://openreview.net/forum?id=p28wv4G65d
     - name: Preprint
       url: https://arxiv.org/abs/2203.08875
     - name: Code
@@ -34,7 +36,7 @@
     - split computing
     - supervised compression
     - open source software
-  year: 2022
+  year: 2023
   note: 
 
 - title: "Cross-Lingual Knowledge Distillation for Answer Sentence Selection in Low-Resource Languages"
