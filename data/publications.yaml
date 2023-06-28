@@ -26,6 +26,8 @@
   badges:
     - name: OpenReview
       url: https://openreview.net/forum?id=p28wv4G65d
+    - name: Video
+      url: https://www.youtube.com/watch?v=uwwV_vAOvX4
     - name: Preprint
       url: https://arxiv.org/abs/2203.08875
     - name: Code
