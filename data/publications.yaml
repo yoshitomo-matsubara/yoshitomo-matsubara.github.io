@@ -4,13 +4,24 @@
     - myself
     - naoya-chiba
     - ryo-igarashi
-    - tatsunori-taniai
     - yoshitaka-ushiku
   badges:
     - name: Preprint
-      url: https://arxiv.org/abs/2203.08875
+      url: https://arxiv.org/abs/2206.10540
     - name: Code
-      url: https://github.com/yoshitomo-matsubara/sc2-benchmark
+      url: https://github.com/omron-sinicx/srsd-benchmark
+    - name: SRSD-Feynman (Easy)
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_easy
+    - name: SRSD-Feynman (Medium)
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_medium
+    - name: SRSD-Feynman (Hard)
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard
+    - name: SRSD-Feynman (Easy w/ Dummy Vars.)
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_easy_dummy
+    - name: SRSD-Feynman (Medium w/ Dummy Vars.)
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_medium_dummy
+    - name: SRSD-Feynman (Hard w/ Dummy Vars.)
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard_dummy
   tags:
     - symbolic regression
   year: 2022
