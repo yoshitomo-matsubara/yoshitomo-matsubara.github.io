@@ -75,6 +75,23 @@
   year: 2023
   note: This work was done while Shivanshu Gupta was an applied science intern at Amazon Alexa AI.
 
+- title: "SplitBeam: Effective and Efficient Beamforming in Wi-Fi Networks Through Split Computing"
+  venue: ICDCS 2023
+  authors:
+    - niloofar-bahadori
+    - myself
+    - marco-levorato
+    - francesco-restuccia
+  badges:
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/split-beam
+    - name: Dataset
+      url: https://huggingface.co/datasets/yoshitomo-matsubara/mu-mimo
+  tags:
+    - split computing
+  year: 2023
+  note:
+
 - title: "Ensemble Transformer for Eﬀicient and Accurate Ranking Tasks: an Application to Question Answering Systems"
   venue: EMNLP 2022 (Findings)
   authors:
