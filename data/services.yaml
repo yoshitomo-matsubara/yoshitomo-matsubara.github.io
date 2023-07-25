@@ -35,12 +35,13 @@
 - category: Program Committee
   list:
     - title: EACL 2023 (System Demonstration Track)
+      url: https://aclanthology.org/2023.eacl-demo.0.pdf
     - title: ICML 2022 Workshop on Dynamic Neural Networks
       url: https://dynn-icml2022.github.io/
     - title: COLING 2022 Workshop on Scholarly Document Processing
       url: https://sdproc.org/2022/programcommittee.html
     - title: AACL-IJCNLP 2022 Workshop on Information Extraction from Scientific Publications
-      url: https://ui.adsabs.harvard.edu/WIESP/2022/
+      url: https://aclanthology.org/2022.wiesp-1.0.pdf
     - title: NAACL 2021 Workshop on Scholarly Document Processing
       url: https://sdproc.org/2021/programcommittee.html
 - category: Beta Test Volunteer
