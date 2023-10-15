@@ -35,6 +35,10 @@
     - title: IEEE GLOBECOM
 - category: Program Committee
   list:
+    - title: NeurIPS 2023 AI for Science Workshop
+      url: https://ai4sciencecommunity.github.io/neurips23.html
+    - title: NeurIPS 2023 Workshop on Generative AI and Biology
+      url: https://genbio-workshop.github.io/
     - title: EACL 2023 (System Demonstration Track)
       url: https://aclanthology.org/2023.eacl-demo.0.pdf
     - title: ICML 2022 Workshop on Dynamic Neural Networks
