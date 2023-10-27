@@ -27,6 +27,25 @@
   year: 2022
   note: 
 
+- title: "torchdistill Meets Hugging Face Libraries for Reproducible, Coding-Free Deep Learning Studies: A Case Study on NLP"
+  venue: EMNLP 2023 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS)
+  authors:
+    - myself
+  badges:
+    - name: OpenReview
+      url: https://openreview.net/forum?id=A5Axeeu1Bo
+    - name: Preprint
+      url: https://arxiv.org/abs/2310.17644
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/torchdistill
+    - name: PyPI
+      url: https://pypi.org/project/torchdistill/
+  tags:
+    - knowledge distillation
+    - open source software
+  year: 2023
+  note: This work was done prior to joining Amazon.
+
 - title: "SC2 Benchmark: Supervised Compression for Split Computing"
   venue: Transactions on Machine Learning Research (TMLR)
   authors:
