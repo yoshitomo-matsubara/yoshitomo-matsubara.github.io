@@ -27,6 +27,24 @@
   year: 2022
   note: 
 
+
+- title: "A Transformer Model for Symbolic Regression towards Scientific Discovery"
+  venue: NeurIPS 2023 AI for Science Workshop (Oral)
+  authors:
+    - florian-lalande
+    - myself
+    - naoya-chiba
+    - tatsunori-taniai
+    - ryo-igarashi
+    - yoshitaka-ushiku
+  badges:
+    - name: OpenReview
+      url: https://openreview.net/forum?id=AIfqWNHKjo
+  tags:
+    - symbolic regression
+  year: 2023
+  note: This work was mainly done while I was a research intern at OMRON SINIC X Corporation.
+
 - title: "torchdistill Meets Hugging Face Libraries for Reproducible, Coding-Free Deep Learning Studies: A Case Study on NLP"
   venue: EMNLP 2023 Workshop for Natural Language Processing Open Source Software (NLP-OSS)
   authors:
