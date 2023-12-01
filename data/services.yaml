@@ -1,10 +1,14 @@
-- category: Technical Staff
-  list:
-    - title: ACL Rolling Review
-      url: https://aclrollingreview.org/people
-      note: (5/2021 - present)
 - category: Organizer
   list:
+    - title: Technical Chair
+      list:
+        - title: CVPR 2024
+          url: https://cvpr.thecvf.com/Conferences/2024/Organizers
+    - title: Technical Staff
+      list:
+        - title: ACL Rolling Review
+          url: https://aclrollingreview.org/people
+          note: (5/2021 - present)
 - category: Reviewer
   list:
     - title: ICLR
@@ -26,9 +30,10 @@
         - title: Top Reviewer of NeurIPS 2022 (Main)
           url: https://neurips.cc/Conferences/2022/ProgramCommittee
           note: (10.7%, 1,101 of 10,334 reviewers)
-    - title: AAAI
+    - title: ACL Rolling Review
     - title: EMNLP
     - title: WACV
+    - title: AAAI
     - title: JMLR
     - title: IEEE Transactions on Mobile Computing
     - title: IEEE Journal on Selected Areas in Information Theory
