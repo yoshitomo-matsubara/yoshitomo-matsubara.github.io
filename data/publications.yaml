@@ -50,6 +50,8 @@
   authors:
     - myself
   badges:
+    - name: Paper
+      url: https://aclanthology.org/2023.nlposs-1.18/
     - name: OpenReview
       url: https://openreview.net/forum?id=A5Axeeu1Bo
     - name: Preprint
