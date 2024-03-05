@@ -1,11 +1,15 @@
 - title: "Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery"
-  venue: arXiv
+  venue: Journal of Data-centric Machine Learning Research (DMLR)
   authors:
     - myself
     - naoya-chiba
     - ryo-igarashi
     - yoshitaka-ushiku
   badges:
+    - name: OpenReview
+      url: https://openreview.net/forum?id=qrUdrXsiXX
+    - name: Video
+      url: https://www.youtube.com/watch?v=MmeOXuUUAW0
     - name: Preprint
       url: https://arxiv.org/abs/2206.10540
     - name: Code
@@ -24,7 +28,7 @@
       url: https://huggingface.co/datasets/yoshitomo-matsubara/srsd-feynman_hard_dummy
   tags:
     - symbolic regression
-  year: 2022
+  year: 2024
   note: 
 
 
