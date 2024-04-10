@@ -130,6 +130,10 @@
     - marco-levorato
     - francesco-restuccia
   badges:
+    - name: Paper
+      url: https://ieeexplore.ieee.org/document/10272483
+    - name: Preprint
+      url: https://arxiv.org/abs/2310.08656
     - name: Code
       url: https://github.com/yoshitomo-matsubara/split-beam
     - name: Dataset
