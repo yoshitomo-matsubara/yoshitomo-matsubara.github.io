@@ -44,6 +44,8 @@
   badges:
     - name: OpenReview
       url: https://openreview.net/forum?id=AIfqWNHKjo
+    - name: Code
+      url: https://github.com/omron-sinicx/transformer4sr
   tags:
     - symbolic regression
   year: 2023
