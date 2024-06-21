@@ -39,6 +39,7 @@
     - title: EMNLP
     - title: WACV
     - title: AAAI
+    - title: IJCAI
     - title: JMLR
     - title: IEEE Transactions on Mobile Computing
     - title: IEEE Journal on Selected Areas in Information Theory
@@ -49,6 +50,8 @@
     - title: IEEE GLOBECOM
 - category: Program Committee
   list:
+    - title: ACL 2024 Workshop on Scholarly Document Processing
+      url: https://sdproc.org/2024/programcommittee.html
     - title: NeurIPS 2023 AI for Science Workshop
       url: https://ai4sciencecommunity.github.io/neurips23.html
     - title: NeurIPS 2023 Workshop on Generative AI and Biology
