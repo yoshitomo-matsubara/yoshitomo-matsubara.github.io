@@ -19,6 +19,9 @@
         - title: ARR (ACL Rolling Review)
           url: https://aclrollingreview.org/organization
           note: (5/2021 - present)
+- category: Action Editor
+  list:
+    - title: TMLR
 - category: Area Chair
   list:
     - title: NeurIPS
