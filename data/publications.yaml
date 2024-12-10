@@ -1,3 +1,21 @@
+- title: "Two-Stage Coefficient Estimation in Symbolic Regression for Scientific Discovery"
+  venue: NeurIPS 2024 Machine Learning and the Physical Sciences workshop
+  authors:
+    - masahiro-negishi
+    - myself
+    - naoya-chiba
+    - ryo-igarashi
+    - yoshitaka-ushiku
+  badges:
+    - name: Paper
+      url: https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_11.pdf
+    - name: Code
+      url: https://github.com/omron-sinicx/srsd-coeff-optim
+  tags:
+    - symbolic regression
+  year: 2024
+  note: This work was done prior to joining Spiffy AI.
+  
 - title: "Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery"
   venue: Journal of Data-centric Machine Learning Research (DMLR)
   authors:
@@ -30,7 +48,6 @@
     - symbolic regression
   year: 2024
   note: This work was mainly done while I was a research intern at OMRON SINIC X Corporation.
-
 
 - title: "A Transformer Model for Symbolic Regression towards Scientific Discovery"
   venue: NeurIPS 2023 AI for Science Workshop (Oral)
