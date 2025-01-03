@@ -1,3 +1,21 @@
+- title: A Multi-task Supervised Compression Model for Split Computing
+  venue: WACV 2025
+  authors:
+    - myself
+    - matteo-mendula
+    - marco-levorato
+  badges:
+    - name: Preprint
+      url: https://arxiv.org/abs/2501.01420
+    - name: Code
+      url: https://github.com/yoshitomo-matsubara/ladon-multi-task-sc2
+  tags:
+    - supervised compression
+    - split computing
+    - knowledge distillation
+  year: 2025
+  note: This work was done prior to joining Spiffy AI.
+
 - title: "Two-Stage Coefficient Estimation in Symbolic Regression for Scientific Discovery"
   venue: NeurIPS 2024 Machine Learning and the Physical Sciences Workshop
   authors:
