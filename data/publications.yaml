@@ -5,6 +5,8 @@
     - matteo-mendula
     - marco-levorato
   badges:
+    - name: Paper + Supp
+      url: https://openaccess.thecvf.com/content/WACV2025/html/Matsubara_A_Multi-Task_Supervised_Compression_Model_for_Split_Computing_WACV_2025_paper.html
     - name: Preprint
       url: https://arxiv.org/abs/2501.01420
     - name: Code
@@ -269,7 +271,7 @@
     - marco-levorato
     - mandt-stephan
   badges:
-    - name: Paper
+    - name: Paper + Supp
       url: https://openaccess.thecvf.com/content/WACV2022/html/Matsubara_Supervised_Compression_for_Resource-Constrained_Edge_Computing_Systems_WACV_2022_paper.html
     - name: Preprint
       url: https://arxiv.org/abs/2108.11898
@@ -300,7 +302,6 @@
     - open source software
   year: 2021
   note:
-
 
 - title: Neural Compression and Filtering for Edge-assisted Real-time Object Detection in Challenged Networks
   venue: ICPR 2020
@@ -346,7 +347,6 @@
     - information retrieval
   year: 2020
   note: "* First four authors contributed equally."
-
 
 - title: Optimal Task Allocation for Time-Varying Edge Computing Systems with Split DNNs
   venue: IEEE GLOBECOM 2020
