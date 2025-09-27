@@ -86,6 +86,11 @@
       url: https://aclanthology.org/2022.wiesp-1.0.pdf
     - title: NAACL 2021 Workshop on Scholarly Document Processing
       url: https://sdproc.org/2021/programcommittee.html
+- category: Ambassador
+  list:
+    - title: 2025 PyTorch Ambassador
+      url: https://pytorch.org/programs/ambassadors/
+      note: (14.2%, 33 of 232 applicants)
 - category: Beta Test Volunteer
   list:
     - title: TMLR
