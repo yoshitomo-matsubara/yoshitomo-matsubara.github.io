@@ -7,6 +7,8 @@
         - title: ICCV 2027
         - title: CVPR 2027
         - title: WACV 2027
+        - title: ECCV 2026
+          url: https://eccv.ecva.net/Conferences/2026/Committees
         - title: CVPR 2026
           url: https://cvpr.thecvf.com/Conferences/2026/Organizers
         - title: WACV 2026
@@ -88,6 +90,9 @@
       url: https://aclanthology.org/2022.wiesp-1.0.pdf
     - title: NAACL 2021 Workshop on Scholarly Document Processing
       url: https://sdproc.org/2021/programcommittee.html
+- category: Thesis Commmitee
+  list:
+    - title: Alessio Devoto, PhD Program in Data Science at Sapienza University of Rome
 - category: Ambassador
   list:
     - title: 2025 PyTorch Ambassador
