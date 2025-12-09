@@ -90,9 +90,6 @@
       url: https://aclanthology.org/2022.wiesp-1.0.pdf
     - title: NAACL 2021 Workshop on Scholarly Document Processing
       url: https://sdproc.org/2021/programcommittee.html
-- category: Thesis Commmitee
-  list:
-    - title: Alessio Devoto, PhD Program in Data Science at Sapienza University of Rome
 - category: Ambassador
   list:
     - title: 2025 PyTorch Ambassador
