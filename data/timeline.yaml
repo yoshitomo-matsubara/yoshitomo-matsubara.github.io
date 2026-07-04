@@ -1,0 +1,81 @@
+# Academic Timeline Configuration
+# Each section has a label, color, and list of entries with start/end years
+
+timeline:
+  year_start: 2007
+  year_end: 2026
+
+sections:
+  - id: grants
+    label: "予算獲得状況"
+    color: "#4CAF82"
+    type: gantt
+    entries:
+      - label: "特別研究員奨励費"
+        start: 2014.1
+        end: 2016.7
+      - label: "若手研究者支援"
+        start: 2015.7
+        end: 2017.7
+      - label: "基盤研究(A)"
+        start: 2016.1
+        end: 2018.1
+      - label: "研究活動スタート支援"
+        start: 2018.1
+        end: 2019.7
+      - label: "Society 5.0 実現化"
+        start: 2018.7
+        end: 2020.1
+      - label: "基盤研究(B)"
+        start: 2019.7
+        end: 2022.7
+      - label: "基盤研究(A)"
+        start: 2020.1
+        end: 2023.1
+      - label: "調査研究助成"
+        start: 2020.7
+        end: 2022.1
+      - label: "基盤研究(B)"
+        start: 2021.1
+        end: 2023.7
+      - label: "さきがけ"
+        start: 2021.7
+        end: 2024.1
+      - label: "アフターコロナ社会を形成するICT(課題2)"
+        start: 2021.7
+        end: 2023.1
+      - label: "基盤研究(B)"
+        start: 2022.1
+        end: 2024.1
+
+  - id: career
+    label: "Career"
+    color: "#5B9BD5"
+    type: gantt
+    row_height: 5
+    font_size: "12px"
+    entries:
+      - label: "A.E. + B. Eng \n@ National Institute of Technology, Akashi College"
+        start: 2007.4
+        end: 2014.3
+        row: 0
+      - label: "M. A.I. \n@ University of Hyogo"
+        start: 2014.4
+        end: 2016.3
+        row: 0
+      - label: "Ph.D. in Computer Science @ University of California, Irvine"
+        start: 2016.9
+        end: 2022.3
+        row: 0
+      - label: "Applied Scientist @ Amazon"
+        start: 2022.3
+        end: 2024.1
+        row: 0
+      - label: "Founding Research Engineer @ Spiffy AI"
+        start: 2024.3
+        end: 2024.11
+        row: 0
+      - label: "Research Scientist @ Yahoo!"
+        start: 2025.2
+        end: 2026.12
+        row: 0
