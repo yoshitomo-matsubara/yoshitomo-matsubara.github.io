@@ -43,6 +43,7 @@
       url: https://link.springer.com/collections/gfccfdefaf
 - category: Area Chair
   list:
+    - title: ICLR
     - title: ICML
     - title: NeurIPS (Main and Evaluations & Datasets tracks)
 - category: Reviewer
