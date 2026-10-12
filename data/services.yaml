@@ -45,7 +45,11 @@
   list:
     - title: ICLR
     - title: ICML
-    - title: NeurIPS (Main and Evaluations & Datasets tracks)
+    - title: NeurIPS
+      note: (Main and Evaluations & Datasets Tracks)
+      list:
+        - title: Top AC of NeurIPS 2026 (Evaluations & Datasets Track)
+          url: https://neurips.cc/Conferences/2022/DatasetBenchmarkProgramCommittee
 - category: Reviewer
   list:
     - title: ICLR
@@ -55,13 +59,12 @@
           note: (8.75%, 543 of 6,207 reviewers)
     - title: ICML
     - title: NeurIPS
-      url:
-      note: (Main and Datasets & Benchmarks tracks)
+      note: (Main and Datasets & Benchmarks Tracks)
       list:
         - title: Top Reviewer of NeurIPS 2023
           url: https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers
           note: (10.2%, 1,197 of 11,725 reviewers)
-        - title: Outstanding Reviewer of NeurIPS 2022 (Datasets & Benchmarks)
+        - title: Outstanding Reviewer of NeurIPS 2022 (Datasets & Benchmarks Track)
           url: https://neurips.cc/Conferences/2022/DatasetBenchmarkProgramCommittee
           note: (13.3%, 142 of 1,064 reviewers)
         - title: Top Reviewer of NeurIPS 2022 (Main)
@@ -104,7 +107,7 @@
       url: https://sdproc.org/2021/programcommittee.html
 - category: Thesis Committee
   list:
-    - title: Alessio Devoto, PhD Program in Data Science at Sapienza University of Rome
+    - title: PhD Program in Data Science at Sapienza University of Rome
 - category: Ambassador
   list:
     - title: 2025 PyTorch Ambassador
